@@ -1,0 +1,12 @@
+num_workers: 1
+num_compute_threads: 1
+output_active: no
+# Giraph configuration
+giraph.nettyClientThreads: 1
+giraph.nettyServerThreads: 1
+giraph.nettyClientExecutionThreads: 1
+giraph.channelsPerServer: 4
+giraph.useBigDataIOForMessages: true
+giraph.useNettyPooledAllocator: true
+giraph.useNettyDirectMemory: true
+giraph.nettyRequestEncoderBufferSize: 1048576
